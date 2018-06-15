@@ -1,0 +1,79 @@
+/*
+ * Barn Red: #7C0A02;
+ * Pretty Blue: #29bcd6;
+*/
+.top-bar {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.17);
+    border-bottom: 2px solid #7C0A02;
+    color: #7C0A02;
+}
+
+.top-bar a {
+    color: #7C0A02;
+}
+
+.top-bar, .top-bar ul {
+    background-color: #FFF;
+}
+
+body {
+    background-color: #E0E0E0;
+}
+
+h4 {
+    color: #7C0A02;
+}
+
+.orbit-image div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.orbit-pad {
+    padding-bottom: 20px;
+}
+
+.master-card {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.17);
+    border-top: 3px solid #7C0A02;
+    width: 300px;
+}
+
+.master-card button {
+    background-color: #7C0A02;
+    color: white;
+    width: 100%;
+}
+
+.master-container {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.17);
+    border-top: 3px solid #7C0A02;
+    padding: 20px;
+}
+
+.orbit-slide:nth-of-type(1) .colorslide {
+    background: dodgerblue;
+}
+
+.orbit-slide:nth-of-type(2) .colorslide {
+    background: rebeccapurple;
+}
+
+.orbit-slide:nth-of-type(3) .colorslide {
+    background: darkgoldenrod;
+}
+
+.colorslide p {
+    font-style: italic;
+}
+.orbit-bullets {
+    background: #FFFFFF;
+    border-bottom: 1px solid gray;
+    margin-top: 0;
+}
+
+.white-text {
+    color: white;
+}
