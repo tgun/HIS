@@ -1,6 +1,8 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home Inspection Specilists (H.I.S.)</title>
     <!-- Styles -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css"
@@ -25,8 +27,9 @@
 <div class="top-bar" id="responsive-menu">
     <div class="top-bar-left">
         <ul class="menu">
-            <li class="menu-text"><img src="Content/HIS_LOGO_RED.png" alt="HIS" style="width:100px"/>
+            <li class="menu-text"><a href="index.html"><img src="Content/HIS_LOGO_RED_NEW.png" alt="HIS" style="width:100px"/>
                 Home Inspection Specialists
+            </a>
             </li>
         </ul>
     </div>
@@ -45,45 +48,11 @@
     </div>
 </div>
 
-<!-- Slider -->
-<div class="grid-x orbit-pad">
-    <div class="cell medium12 large-12">
-        <div class="orbit" role="region" id="orb" aria-label="Home Overview" data-orbit data-timer-delay="10000">
-            <ul class="orbit-container">
-                <li class="orbit-slide is-active">
-                    <figure class="orbit-figure">
-                        <img class="orbit-image" src="Content/house1.jpg" style="width:100%; height: 500px" alt="House">
-                        <figcaption class="orbit-caption">With H.I.S., you can sleep easy</figcaption>
-                    </figure>
-                </li>
 
-                <li class="orbit-slide">
-                    <figure class="orbit-figure">
-                        <img class="orbit-image" src="Content/house2.jpg" style="height:500px" alt="Space">
-                        <figcaption class="orbit-caption">Enjoy your piece of Texas with H.I.S. trusted inspections
-                        </figcaption>
-                    </figure>
-                </li>
-
-                <li class="orbit-slide">
-                    <figure class="orbit-figure">
-                        <img class="orbit-image" src="Content/house3.jpg" style="height:500px" alt="Space">
-
-                    </figure>
-                </li>
-                <!-- More slides... -->
-            </ul>
-
-            <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span> &#9664;&#xFE0E;</button>
-            <button class="orbit-next"><span class="show-for-sr">Next Slide</span> &#9654;&#xFE0E;</button>
-
-            <nav class="orbit-bullets">
-                <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span
-                        class="show-for-sr">Current Slide</span></button>
-                <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
-                <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
-            </nav>
-        </div>
+<!-- Center imaged -->
+<div class="grid-x grid-margin-x">
+    <div class="cell medium-12 large-12">
+        <img id="main-img" src="Content/interior.png" alt="Kitchen" class="image-pad"/>
     </div>
 </div>
 
@@ -103,7 +72,7 @@
             <div class="card-section">
                 <h4>Schedule your inspection now</h4>
                 <p>Call us at 210-611-1111 to setup your inspection, or click below to schedule online!</p>
-                <button class="button">Schedule Now</button>
+                <a href="schedule.html" class="button">Schedule Now</a>
             </div>
         </div>
         <!--<p class="lead">Schedule your inspection now!</p>-->
@@ -117,6 +86,9 @@
         <p>After each inspection, we make sure to explain our findings to you in terms you understand. </p>
         <p>Our friendly, professional staff will make sure you are aware of and understand any issues. This ensures a
             confidence when dealing with the home buying process we are confident you will enjoy.</p>
+        <p>To increase your confidence, included with every inspection is a free Recall Check.
+        Recall check will ensure any appliances included with your home were never recalled due to manufacturer defects.</p>
+        <p>To learn more information about our Recall Check program, click here.</p>
     </div>
 
     <div class="cell medium-6 large-3">
@@ -124,7 +96,7 @@
             <div class="card-section">
                 <h4>Not Sure? Read our testimonials!</h4>
                 <p>Don't just take it from us! Hear what others have to say about our inspectors.</p>
-                <button class="button">Testimonials</button>
+                <a href="testimonials.html" class="button">Testimonials</a>
             </div>
         </div>
         <!--<p class="lead">Schedule your inspection now!</p>-->
@@ -133,11 +105,15 @@
 </div>
 
 <!-- Footer -->
-
+<div class="grid-x grid-margin-x">
+    <div class="cell large-12 small-12 foot">
+    </div>
+</div>
 <script type="text/javascript">
     $(document).foundation();
-    $(document).ready(function () {
-        var elem = new Foundation.Orbit($("#orb"), {fluid: '800x500'});
+    $(document).ready(function() {
+        $(".foot").load("footer.html");
+        $("#currentYear").html("2018");
     });
 </script>
 </body>

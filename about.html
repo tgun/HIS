@@ -1,5 +1,8 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home Inspection Specilists (H.I.S.)</title>
     <!-- Styles -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css"
@@ -24,8 +27,9 @@
 <div class="top-bar" id="responsive-menu">
     <div class="top-bar-left">
         <ul class="menu">
-            <li class="menu-text"><img src="Content/HIS_LOGO_RED.png" alt="HIS" style="width:100px"/>
+            <li class="menu-text"><a href="index.html"><img src="Content/HIS_LOGO_RED_NEW.png" alt="HIS" style="width:100px"/>
                 Home Inspection Specialists
+            </a>
             </li>
         </ul>
     </div>
@@ -45,10 +49,50 @@
     </div>
 </div>
 
+
+<div class="grid-x grid-margin-x">
+    <div class="cell medium-12 large-12">
+        <img id="main-img" src="Content/outside.png" alt="house" class="image-pad"/>
+    </div>
+</div>
+
+<!-- Content -->
+<div class="grid-x  grid-margin-x">
+    <div class="cell medium-6 large-6 large-offset-2 card master-container">
+        <h3>Tom Roberts</h3>
+        <p>Tom Roberts is the primary inspector for H.I.S. Inspections. He trained under the careful instruction of other master inspectors
+            and has developed a reputation for being very detailed in his reports, and making sure his customers walk away with a smile every time.
+        </p>
+        <h3>Our Philosphy</h3>
+        <p>At H.I.S. Inspections, our faith is very important to us, and we plan to show it in the work we do.</p>
+        <p>As Colossians 3:23 says, "Whatever you do, work heartily, as for the Lord and not for men".</p>
+        <p>With this in mind, we make sure to work to the best of our ability, to glorify God and to make sure our customers get nothing short of the best home inspection possible. Every time.</p>
+    </div>
+
+    <div class="cell medium-6 large-3">
+        <div class="card master-card">
+            <div class="card-section">
+                <h4>Schedule your inspection now</h4>
+                <p>Call us at 210-611-1111 to setup your inspection, or click below to schedule online!</p>
+                <a href="schedule.html" class="button">Schedule Now</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- Footer -->
+<div class="grid-x grid-margin-x">
+    <div class="cell large-12 small-12 foot">
+    </div>
+</div>
+
 <script type="text/javascript">
     $(document).foundation();
-    $(document).ready(function () {
-        var elem = new Foundation.Orbit($("#orb"), {fluid: '800x500'});
+    $(document).ready(function() {
+        $(".foot").load("footer.html");
+        $("#currentYear").html("2018");
     });
 </script>
 </body>
