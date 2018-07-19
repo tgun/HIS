@@ -19,35 +19,7 @@
 </head>
 <body>
 <!-- Navbar -->
-<div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
-    <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
-    <div class="title-bar-title">Home Inspection Specilists</div>
-</div>
-
-<div class="top-bar" id="responsive-menu">
-    <div class="top-bar-left">
-        <ul class="menu">
-            <li class="menu-text"><a href="index.html"><img src="Content/HIS_LOGO_RED_NEW.png" alt="HIS" style="width:100px"/>
-                Home Inspection Specialists
-            </a>
-            </li>
-        </ul>
-    </div>
-
-
-    <div class="top-bar-right">
-        <ul class="dropdown menu" data-dropdown-menu>
-            <li class="has-submenu">
-                <a href="about.html">About</a>
-                <ul class="submenu menu vertical" data-submenu>
-                    <li><a href="testimonials.html">Testimonials</a></li>
-                </ul>
-            </li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </div>
-</div>
+<div id="navbar"></div>
 <!-- /Navbar -->
 
 <div class="grid-x grid-margin-x">
@@ -103,6 +75,7 @@
     $(document).ready(function() {
         $(".foot").load("footer.html");
         $("#currentYear").html("2018");
+        $("#navbar").load("Navigation.html");
     });
 </script>
 </body>

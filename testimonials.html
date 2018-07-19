@@ -19,97 +19,125 @@
 </head>
 <body>
 <!-- Navbar -->
-<div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
-    <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
-    <div class="title-bar-title">Home Inspection Specilists</div>
-</div>
+<div id="navbar"></div>
 
-<div class="top-bar" id="responsive-menu">
-    <div class="top-bar-left">
-        <ul class="menu">
-            <li class="menu-text"><a href="index.html"><img src="Content/HIS_LOGO_RED_NEW.png" alt="HIS" style="width:100px"/>
-                Home Inspection Specialists
-            </a>
-            </li>
-        </ul>
-    </div>
-
-
-    <div class="top-bar-right">
-        <ul class="dropdown menu" data-dropdown-menu>
-            <li class="has-submenu">
-                <a href="about.html">About</a>
-                <ul class="submenu menu vertical" data-submenu>
-                    <li><a href="testimonials.html">Testimonials</a></li>
-                </ul>
-            </li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </div>
-</div>
-
-
-<!-- Slider -->
+<!-- Center imaged -->
 <div class="grid-x">
-    <div class="cell medium12 large-12">
-        <div class="orbit white-text" role="region" id="orb" aria-label="Home Overview" data-orbit data-timer-delay="10000">
-            <ul class="orbit-container" style="height:508px">
-                <li class="orbit-slide is-active">
-                    <div class="colorslide">
-                        <h3 class="text-center">Jessica D.</h3>
-                        <p class="text-center">An efficiently and expertly executed inspection. Tom was knowledgeable, and courteous throughout.</p>
-                    </div>
-                </li>
-
-                <li class="orbit-slide">
-                    <div class="colorslide">
-                        <h3 class="text-center">Andrew W.</h3>
-                        <p class="text-center">Tom was quick but thorough. He was professional, answered all 100 of our questions, took dozens of pictures for a thorough report, went over every detail via an informal presentation, and was incredibly quick generating a formal report. He walked us around the home to show us everything that was wrong and explained everything in a way even this guy can understand (and that's saying something).</p>
-
-                        <p class="text-center">I hope not to buy another home soon, but if I ever need an inspection or help with anything remotely related, these guys are my first call. And I'm definitely asking for Tom.</p>
-                    </div>
-                </li>
-
-                <li class="orbit-slide">
-                    <div class="colorslide">
-                        <h3 class="text-center">Lana L.</h3>
-                        <p class="text-center">Our inspector was Tom; he was incredibly careful and took his time going through the house.
-                            When he was ready to go over the inspection he answered all 1000 of my questions and did so in such a polite and genuine manner.</p>
-
-                    </div>
-                </li>
-                <!-- More slides... -->
-            </ul>
-
-            <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span> &#9664;&#xFE0E;</button>
-            <button class="orbit-next"><span class="show-for-sr">Next Slide</span> &#9654;&#xFE0E;</button>
-
-            <nav class="orbit-bullets orbit-pad">
-                <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span
-                        class="show-for-sr">Current Slide</span></button>
-                <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
-                <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
-            </nav>
-        </div>
+    <div class="cell large-offset-4 large-8">
+        <img id="main-img" src="Content/reviews.png" alt="reviews imgs" class="review-pad"/>
     </div>
 </div>
 
 
 <!-- Content -->
-<div class="grid-x  grid-margin-x">
-    <div class="cell medium-6 large-12 large-offset-2 card master-container">
-        <h4>Testimonials</h4>
-        <p>Here you will find a few reviews of our inspectors and the services they were able to provide.</p>
-        <p>We update this page periodically, taking the reviews from yelp.</p>
-        <p>If you would like to contribute a review and see all of our reviews, check out our yelp page!</p>
-
+<div class="grid-x">
+    <div class="cell large-offset-2 large-9 master-container">
+        <p><strong>Your opinion counts! We take reviews very seriously and use them as a tool to
+            continually improve our service to provide you with the best possible experience.</strong></p>
+        <p>What previous clients have to say about our inspections:</p>
     </div>
+</div>
 
+<div class="grid-x">
+    <div class="cell large-offset-1 large-10 master-container">
+        <h4>Andrew W. - San Antonio, TX</h4>
+        <p>These guys are the bees knees!  We did two inspections before we found our home (knock on wood, we're almost there!) and our inspector, Tom, did an incredible job. </p>
+        <p>Tom was quick but thorough.
+            He was professional, answered all 100 of our questions, took dozens of pictures for a thorough report,
+            went over every detail via an informal presentation, and was incredibly quick generating a formal report.
+            He walked us around the home to show us everything that was wrong and explained everything in a way even
+            this guy can understand (and that's saying something). </p>
+
+        <p>I hope not to buy another home soon, but if I ever need an inspection or help with
+            anything remotely related, these guys are my first call. And I'm definitely asking for Tom.</p>
+    </div>
+</div>
+
+<div class="grid-x">
+    <div class="cell large-offset-2 large-9 master-container">
+        <h4>Lana L. - San Antonio, TX</h4>
+        <p>My husband and I are in the process of buying a home in San Antonio.
+            We hired Inspector Clouseau based on reviews and we were not disappointed!
+            Our inspector was Tom; he was incredibly careful and took his time going through the house.
+            When he was ready to go over the inspection he answered all 1000 of my questions and did so in
+            such a polite and genuine manner. You can even get a "scratch off" coupon when it's time to pay.
+            We got $15 off! I would highly recommend :)</p>
+    </div>
+</div>
+
+<div class="grid-x">
+    <div class="cell large-offset-2 large-9 master-container">
+        <h4>Jessica D. - Philly Yo!</h4>
+        <p>An efficiently and expertly executed inspection. Tom was knowledgeable, and courteous throughout.</p>
+    </div>
+</div>
+
+<div class="grid-x">
+    <div class="cell large-offset-2 large-9 master-container">
+        <h4>William M. - San Antonio, TX</h4>
+        <p>All good, great value and expert work. Total satisfaction! Feel free to use me as a reference.</p>
+    </div>
+</div>
+
+<div class="grid-x">
+    <div class="cell large-offset-2 large-9 master-container">
+        <h4>Brian Wolton &amp; J - San Antonio, TX</h4>
+        <p>Excellent, professional and very thorough job. We really appreciate all of the photographs we found them to be very helpful.</p>
+    </div>
+</div>
+
+<div class="grid-x">
+    <div class="cell large-offset-2 large-9 master-container">
+        <h4>Catherine P. - San Antonio, TX</h4>
+        <p>Very careful, thorough, explained everything clearly. I would work with them again. Recommend!</p>
+    </div>
+</div>
+
+<div class="grid-x"> <!-- Kent Ping K -->
+    <div class="cell large-offset-2 large-9 master-container">
+        <h4>Kent Ping K. - San Antonio, TX</h4>
+        <p>Great experience. Identified a potentially expensive repair needed on HVAC
+        </p>
+    </div>
+</div>
+
+<div class="grid-x"> <!-- Kent Ping K -->
+    <div class="cell large-offset-2 large-9 master-container">
+        <h4>David M. - San Antonio, TX</h4>
+        <p>The inspector was very thorough and answered all my questions with ease.
+            The report was detailed and informative. I am very happy with their professional service,
+            and would definitely use them again.</p>
+    </div>
+</div>
+
+
+<div class="grid-x"> <!-- Kent Ping K -->
+    <div class="cell large-offset-2 large-9 master-container">
+        <h4>Scott and Katie W. - San Antonio, TX</h4>
+        <p>Tom was professional, courteous, and thorough.
+            He explained everything well and was more than willing to point out issues about which we had questions.
+            I would recommend Tom to anyone looking for an honest and professional opinion about a new home purchase.</p>
+    </div>
+</div>
+
+<div class="grid-x"> <!-- Kent Ping K -->
+    <div class="cell large-offset-2 large-9 master-container">
+        <h4>Moris D. - San Antonio, TX</h4>
+        <p>Thank you very much for the good service! We always call you because you do a good job. Thank you very much and God bless you all.</p>
+    </div>
+</div>
+
+
+<div class="grid-x"> <!-- Kent Ping K -->
+    <div class="cell large-offset-2 large-9 master-container">
+        <h4>William L. - San Antonio, TX</h4>
+        <p>We have used Tom on two occasions and both experiences exceeded our expectations.
+            The reports are thorough and the inspections were clearly done with care.</p>
+    </div>
 </div>
 
 <!-- Footer -->
-<div class="grid-x grid-margin-x">
+<div class="grid-x">
     <div class="cell large-12 small-12 foot">
     </div>
 </div>
@@ -119,6 +147,7 @@
     $(document).ready(function() {
         $(".foot").load("footer.html");
         $("#currentYear").html("2018");
+        $("#navbar").load("Navigation.html");
     });
 </script>
 </body>
