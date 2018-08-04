@@ -93,13 +93,13 @@ export const FAQ = [
     },
     {
         title: 'Can I or should I be at the inspection?', content: [
-            `${
-                <span><strong>Yes</strong> and <strong>yes</strong></span>}! Most home buyers spend less than 20 minutes in a home when they place an offer. Being at the inspection gives you to not only get a good second look but also at the end of the inspection, we will give you a verbal overview of the inspection and show you any areas of concern. We will also be able to answer any questions and help you understand more about your new home.`
+            <span><span><strong>Yes</strong> and <strong>yes</strong></span>! Most home buyers spend less than 20 minutes in a home when they place an offer. Being at the inspection gives you to not only get a good second look but also at the end of the inspection, we will give you a verbal overview of the inspection and show you any areas of concern. We will also be able to answer any questions and help you understand more about your new home.</span>
         ]
     },
     {
         title: 'Questions?', content: [
-            "Have any more questions? Please feel free to send us your questions to info@hisinspectionstx.com and we will review and answer your question as soon as possible."
+            <span>Have any more questions? Please feel free to send us your questions to <a
+                href="mailto:info@hisinspectionstx.com">info@hisinspectionstx.com</a> and we will review and answer your question as soon as possible.</span>
         ]
     }
 ];

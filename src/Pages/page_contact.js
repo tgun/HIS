@@ -8,7 +8,8 @@ import mainImage from '../Content/outside.png'; // -- outside.png
 
 const CONTACT_TEXT = [
     "Have a question?  Please review our FAQ section for answers to some excellent questions.",
-    "Still have a question?  Please contact us through email at Info@HISInspectionsTX.com and we will answer your question as soon as possible or call you directly (don’t forget to leave your number).",
+    <span>Still have a question?  Please contact us through email at <a
+        href="mailto:Info@HISInspectionsTX.com">Info@HISInspectionsTX.com</a> and we will answer your question as soon as possible or call you directly (don’t forget to leave your number).</span>,
 ];
 
 const CONTACT_2 = [
@@ -17,7 +18,7 @@ const CONTACT_2 = [
 ];
 
 const CONTACT_3 = [
-    "Email your information to Booking@HISInspectionsTX.com and we will take your basic information and get you started by checking availability, then call you to give you a quote and confirm your appointment.",
+    <span>Email your information to <a href="mailto:Booking@HISInspectionsTX.com">Booking@HISInspectionsTX.com</a> and we will take your basic information and get you started by checking availability, then call you to give you a quote and confirm your appointment.</span>,
     "Include in your email:",
     <span>Customer name and phone number<br/>
                Agent name and phone number <br/>

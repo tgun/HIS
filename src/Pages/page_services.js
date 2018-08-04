@@ -19,11 +19,7 @@ export default class ServicesPage extends Component {
                         title='Our Services'
                         content={[
                             "Home Inspection Specialists provides a range of home inspection services to meet your needs.",
-                            <h4>Pre-Listing Consultation</h4>,
-                            "Thinking of selling your home?  Let us help you be prepared.  " +
-                            "We offer an informal pre listing consultation to educate you on the things that a " +
-                            "home inspector will be checking when you accept an offer.  These consultation generally take around two hours " +
-                            "during which time we walk you through your home and show you the things that may be called out as deficient during a home inspection.",
+
                             <h5>Pre-Warranty Expiration</h5>,
                             "Did you buy a new home and the 12 month builder's warranty is about to expire? We can do an inspection for you to discover and report any issues prior to warranty expiration.",
                             <h5>Before Purchase Home Inspection</h5>,
